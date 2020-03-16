@@ -20,6 +20,10 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
 
   <!-- JUST-CAF ADDITIONS -->
+  <remove-project name="platform/external/ant-wireless/ant_native" />
+  <remove-project name="platform/external/ant-wireless/ant_service" />
+  
+
 <!--  <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bootable/recovery" />
@@ -39,8 +43,6 @@
   <remove-project name="platform/external/libunwind_llvm" />
   <remove-project name="device/qcom/sepolicy" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
-  <remove-project name="platform/external/ant-wireless/ant_native" />
-  <remove-project name="platform/external/ant-wireless/ant_service" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/hardware/ril" />
