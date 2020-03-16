@@ -156,8 +156,8 @@
   <!-- ENG SUBSTRATUM -->
 
   <!-- device tree, kernel -->
-  <project name="platform_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="aosp-caf" />
-  <project name="platform_device_lge_bullhead" path="device/lge/bullhead" remote="aosp-caf" />
-  <project name="proprietary_vendor_lge_bullhead" path="vendor/lge/bullhead" remote="aosp-caf" />
+  <project name="platform_kernel_lge_bullhead" path="kernel/lge/bullhead" remote="just-caf" />
+  <project name="platform_device_lge_bullhead" path="device/lge/bullhead" remote="just-caf" />
+  <project name="proprietary_vendor_lge_bullhead" path="vendor/lge/bullhead" remote="just-caf" />
 
 </manifest>
