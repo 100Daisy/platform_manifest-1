@@ -26,12 +26,6 @@
 <!--  <project name="platform_bionic" path="bionic" remote="aosp-caf" upstream="caf"/>-->
   <project name="platform_build" path="build/make" remote="aosp-caf" upstream="caf">
     <copyfile dest="Makefile" src="core/root.mk"/>
-    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
-    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
-    <linkfile dest="build/core" src="core"/>
-    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
-    <linkfile dest="build/target" src="target"/>
-    <linkfile dest="build/tools" src="tools"/>
   </project>
 <!--  <project name="platform_build_blueprint" path="build/blueprint" remote="aosp-caf" upstream="caf"/>
   <project name="platform_build_soong" path="build/soong" remote="aosp-caf" upstream="caf">
