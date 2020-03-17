@@ -24,7 +24,7 @@
 
   <!-- JUST CAF ADDITIONS -->
 <!--  <project name="platform_bionic" path="bionic" remote="aosp-caf" upstream="caf"/>-->
-  <project name="platform_build" path="build/make" remote="aosp-caf" upstream="caf">
+  <project name="platform_build" path="build" remote="aosp-caf" upstream="caf">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
 <!--  <project name="platform_build_blueprint" path="build/blueprint" remote="aosp-caf" upstream="caf"/>
