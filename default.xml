@@ -23,7 +23,7 @@
   <project name="android_hardware_ril" path="hardware/ril" remote="lineage" />
 
   <!-- JUST CAF ADDITIONS -->
-<!--  <project name="platform_bionic" path="bionic" remote="aosp-caf" upstream="caf"/>
+<!--  <project name="platform_bionic" path="bionic" remote="aosp-caf" upstream="caf"/>-->
   <project name="platform_build" path="build/make" remote="aosp-caf" upstream="caf">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -33,7 +33,7 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
-  <project name="platform_build_blueprint" path="build/blueprint" remote="aosp-caf" upstream="caf"/>
+<!--  <project name="platform_build_blueprint" path="build/blueprint" remote="aosp-caf" upstream="caf"/>
   <project name="platform_build_soong" path="build/soong" remote="aosp-caf" upstream="caf">
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
