@@ -373,7 +373,6 @@
   <project name="platform/external/shaderc/spirv-headers" path="external/shaderc/spirv-headers" />
   <project name="platform/external/shflags" path="external/shflags" />
   <project name="platform/external/skia" path="external/skia" />
-  <project name="platform/external/skqp" path="external/skqp" />
   <project name="platform/external/sl4a" path="external/sl4a" />
   <project name="platform/external/slf4j" path="external/slf4j" />
   <project name="platform/external/smali" path="external/smali" />
@@ -479,8 +478,6 @@
   <project name="platform/hardware/qcom/vr" path="hardware/qcom/vr" />
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" />
   <project name="platform/hardware/ril" path="hardware/ril" />
-  <project name="platform/hardware/st/nfc" path="hardware/st/nfc" />
-  <project name="platform/hardware/st/secure_element" path="hardware/st/secure_element" />
   <project name="platform/hardware/ti/am57x" path="hardware/ti/am57x" />
   <project name="platform/libcore" path="libcore" />
   <project name="platform/libnativehelper" path="libnativehelper" />
@@ -610,7 +607,6 @@
   <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
   <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" clone-depth="1" />
   <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" clone-depth="1" />
-  <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" clone-depth="1" />
   <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" clone-depth="1" />
   <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" clone-depth="1" />
   <project name="platform/prebuilts/ktlint" path="prebuilts/ktlint" clone-depth="1" />
