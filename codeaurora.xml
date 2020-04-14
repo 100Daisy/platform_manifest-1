@@ -373,6 +373,7 @@
   <project name="platform/external/shaderc/spirv-headers" path="external/shaderc/spirv-headers" />
   <project name="platform/external/shflags" path="external/shflags" />
   <project name="platform/external/skia" path="external/skia" />
+  <project name="platform/external/skqp" path="external/skqp" />
   <project name="platform/external/sl4a" path="external/sl4a" />
   <project name="platform/external/slf4j" path="external/slf4j" />
   <project name="platform/external/smali" path="external/smali" />
